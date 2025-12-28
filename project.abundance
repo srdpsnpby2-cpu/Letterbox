@@ -14,8 +14,8 @@
     },
     {
       "atomType": "Rectangle",
-      "x": 0.42812500000000003,
-      "y": 0.4009779951100244,
+      "x": 0.44583333333333336,
+      "y": 0.4938875305623472,
       "uniqueID": "id-6",
       "ioValues": [
         {
@@ -29,9 +29,27 @@
           "currentEquation": "450"
         }
       ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.44375,
+      "y": 0.4645476772616137,
+      "uniqueID": "id-16",
+      "ioValues": [
+        {
+          "name": "height",
+          "ioValue": 18
+        }
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-6",
+      "ap2ID": "id-16"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
