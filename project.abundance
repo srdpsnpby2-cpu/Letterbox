@@ -41,6 +41,34 @@
           "ioValue": 18
         }
       ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.2734375,
+      "y": 0.38141809290953543,
+      "uniqueID": "id-20",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 18.2
+        },
+        {
+          "name": "y length",
+          "ioValue": 400
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.44375,
+      "y": 0.48655256723716384,
+      "uniqueID": "id-24",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -48,6 +76,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-6",
       "ap2ID": "id-16"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-20",
+      "ap2ID": "id-24"
     }
   ],
   "unitsKey": "MM",
