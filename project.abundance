@@ -20,7 +20,8 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 1200
+          "ioValue": 1100,
+          "currentEquation": "1100"
         },
         {
           "name": "y length",
